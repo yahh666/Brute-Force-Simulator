@@ -151,6 +151,7 @@ def exibir_resultados(senha, tentativas, tempo_total):
     console.print(f"[bold]  🔑 Senha quebrada:[/bold]  [bold red]{senha}[/bold red]")
     console.print(f"[bold]  🔢 Tentativas:[/bold]      {tentativas:,}")
     console.print(f"[bold]  ⏱️  Tempo:[/bold]           {tempo_total:.2f} segundos")
+    console.print(f"[bold]  🕐 Tempo em minutos:[/bold] {tempo_total / 60:.2f} minutos")
     console.print(f"[bold]  ⚡ Velocidade:[/bold]       {velocidade:,.0f} combinações/seg")
     console.print("[bold green]═══════════════════════════════════════[/bold green]")
 
